@@ -1,0 +1,158 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .top-bar {
+      background: #f46275;
+      color: #fff;
+      font-size: 14px;
+      padding: 8px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .top-bar i {
+      margin-right: 8px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .navbar h1 {
+      font-size: 24px;
+      color: #f46275;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #f46275, #fd7d86);
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+      background-image: url(images/agency.jpeg);
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    header .content {
+      position: relative;
+      z-index: 2;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    header p {
+      margin: 20px 0;
+      font-size: 1.2rem;
+    }
+
+    .btn {
+      background: #fff;
+      color: #f46275;
+      padding: 10px 20px;
+      text-decoration: none;
+      margin: 10px;
+      display: inline-block;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px 20px;
+      background: linear-gradient(to right, #f46275, #fd7d86);
+      color: white;
+      text-align: center;
+    }
+
+    .features div {
+      max-width: 200px;
+    }
+
+    #about {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      padding: 60px 20px;
+      flex-wrap: wrap;
+    }
+
+    #about img {
+      max-width: 300px;
+      border-radius: 10px;
+    }
+
+    .services {
+      text-align: center;
+      padding: 60px 20px;
+      background: #f7f7f7;
+    }
+
+    .service-cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      max-width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
